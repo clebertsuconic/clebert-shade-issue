@@ -35,7 +35,6 @@ public class JsonLoader {
    private static final JsonProvider provider = new org.apache.activemq.artemis.commons.shaded.johnzon.core.JsonProviderImpl();
 
    public static void main(String arg[]) {
-      javax.json.JsonArray test = null;
    }
 
    public static JsonObject readObject(Reader reader) {
